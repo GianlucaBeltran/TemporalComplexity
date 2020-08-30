@@ -41,7 +41,7 @@ int getTallestBuilding(int arr[][6],int n,int m){
     {
     // Binary Search for N
     int val = binarySearch(arr, lowerBound, upperBound, j); // O(logn)
-    if(val > max) // Checks if the height returned by helper function is bigger than than the max
+    if(val > height) // Checks if the height returned by helper function is bigger than than the max
     {
         max = j;
         height = val;
